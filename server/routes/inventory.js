@@ -7,7 +7,6 @@ router.route('/:productid/:styleid')
   .get((req, res) => {
     findStyle(req.params.productid, req.params.styleid)
     .then((result) => {
-        console.log(result);
         res.send(result).status(200);
     })
     .catch((err) => {

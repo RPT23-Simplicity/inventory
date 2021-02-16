@@ -1,5 +1,5 @@
 import React from 'react';
-import css from '../../css/style.css';
+import css from '../../dist/css/style.css';
 
 const Description = (props) => (
   <div className="product-description">
