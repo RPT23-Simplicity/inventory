@@ -23,7 +23,7 @@
 1. After building the components, run `npm start` to start the application.
 1. You will then be able to access the app at **localhost:3004/shop/{product_id}/{style_id}** where **{product_id}** is the product ID & **{style_id}** is the style ID.
 
-The database seeding script `npm run seed` seeds product ID numbers from 0 - 99 & style ID numbers from 1-3  so going to http://localhost:3001/inventory/2/1 will show inventory information for the product with a product ID of 2 & style ID of 1.
+The database seeding script `npm run seed` seeds product ID numbers from 0 - 99 & style ID numbers from 1-3  so going to http://localhost:3004/inventory/2/1 will show inventory information for the product with a product ID of 2 & style ID of 1.
 
 ## Requirements
 
