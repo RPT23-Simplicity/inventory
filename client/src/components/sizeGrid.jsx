@@ -1,5 +1,6 @@
 import React from 'react';
-import SizeTile from './components/sizeTile.jsx';
+import SizeTile from './sizeTile.jsx';
+import Description from './description.jsx';
 import axios from 'axios';
 const port = process.env.PORT || 3004;
 
@@ -30,7 +31,7 @@ class SizeGrid extends React.Component {
   getSizes (productId, styleId) {
 
     return new Promise ((res, rej) => {
-      axios.get(`http://3.137.143.152:${port}/inventory/${productId}/${styleId}`)
+      axios.get(`http://localhost:${port}/inventory/${productId}/${styleId}`)
       .then((results) => {
         res(results.data);
       })
@@ -120,6 +121,7 @@ class SizeGrid extends React.Component {
           <div className="shipping-date">Arrives by Sun, Nov 1
             <div className="edit-location">Edit Location</div>
           </div>
+            <Description/>
         </div>
     );   
     
