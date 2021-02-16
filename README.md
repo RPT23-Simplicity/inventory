@@ -40,14 +40,14 @@ The database seeding script `npm run seed` seeds product ID numbers from 0 - 99 
 - React
 - mongoose
 
+### Development Dependencies
+- Webpack/Babel
+- Jest/Enzyme/Chai/Sinon
+
 ## Development
+If you would like to contribute to this project, please fork this repository and propose your changes via a Pull Request.
 
-### Installing Dependencies
+You can install the project's dependencies by going to the root directory of the project and running `npm install`.
 
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
+Refer to package.json file in the root directory for dependency version numbers.
 
