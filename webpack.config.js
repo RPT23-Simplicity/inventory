@@ -2,7 +2,7 @@ const path = require('path');
 const buildDirectory = './public/dist';
 
 module.exports = {
-    entry: './client/app.jsx',
+    entry: './client/src/index.jsx',
     externals: {
       'cheerio': 'window',
       'react/lib/ExecutionEnvironment': true,
@@ -28,6 +28,6 @@ module.exports = {
     },
      output: {
       filename: 'bundle.js',
-      path: __dirname + '/public/dist'
+      path: __dirname + '/client/dist'
     }
   };
