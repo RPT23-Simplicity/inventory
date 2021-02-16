@@ -1,19 +1,13 @@
-const inventoryDB = require('../database');
+const addToDb = require('../../database/methods/add');
 const sizes = require('./generateSizes');
-
-
-
 
 let addSizesToDB = (productId, styleId) => {
     let newSizes = sizes.generateSizes(productId, styleId);
-    let promiseArr = [];
-    
+    let promiseArr = []; 
     
     for (let currentSize = 0; currentSize < newSizes.length; currentSize++) {
-        
-        let newPromise = inventoryDB.addToDb(newSizes[currentSize]);
+        let newPromise = addToDb(newSizes[currentSize]);
         promiseArr.push(newPromise);
-        
     }
 
     return promiseArr;
@@ -33,14 +27,11 @@ let setInventoryQuantity = (productQuantity, styleQuantity, cb) => {
             .catch((err) => {
                 console.log(err);
             });
-            
             if (currentProduct == productQuantity && currentStyle == styleQuantity) {
                 setTimeout(() => {process.kill(process.pid)}, 5000);
             }
         }
-
     }
-
     return promiseArr;
 };
 

@@ -152,3 +152,24 @@ button:focus {
 .hidden {
     display: none;
 }
+
+.product-description {
+    width: 350px;
+}
+
+.description-text {
+    font-family: helvetica;
+    font-weight: 345;
+    padding-top: 30px;
+    line-height: 2.0;
+}
+
+.description-item {
+    line-height: .2;
+}
+
+.product-details {
+    cursor: pointer;
+    font-weight: 545;
+    text-decoration: underline;
+}
