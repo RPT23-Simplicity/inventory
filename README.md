@@ -23,14 +23,22 @@
 1. After building the components, run `npm start` to start the application.
 1. You will then be able to access the app at **localhost:3004/shop/{product_id}/{style_id}** where **{product_id}** is the product ID & **{style_id}** is the style ID.
 
-The database seeding script `npm run seed` seeds Product ID numbers between 1 - 100 so going to http://localhost:3001/inventory/2/1 will show inventory information for the product with a product ID of 1.
+The database seeding script `npm run seed` seeds product ID numbers from 0 - 99 & style ID numbers from 1-3  so going to http://localhost:3001/inventory/2/1 will show inventory information for the product with a product ID of 2 & style ID of 1.
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+- Node.js
+- MongoDB
 
-- Node 6.13.0
-- etc
+#### Developed using...
+- Node v12.18.3
+- npm v6.14.6
+- MongoDB v4.4.0
+
+### Dependencies
+- Express
+- React
+- mongoose
 
 ## Development
 
