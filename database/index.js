@@ -4,7 +4,6 @@ mongoose.connect('mongodb://localhost/inventory',
   {
     poolSize: 10, 
     bufferMaxEntries: 0, 
-    reconnectTries: 5000, 
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
