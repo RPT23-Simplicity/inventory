@@ -2,7 +2,10 @@
 
 > A service that handles and displays available colors & sizes for each item in inventory.
 
-![Alt Text](https://github-gifs.s3-us-west-1.amazonaws.com/Actual.gif) ![Alt Text](https://github-gifs.s3-us-west-1.amazonaws.com/FEC+(1).gif)
+# Simplicity implementation
+![image](https://github-gifs.s3-us-west-1.amazonaws.com/FEC+(1).gif)
+# Actual 
+![image](https://github-gifs.s3-us-west-1.amazonaws.com/Actual.gif) 
 
 
 ## Related Projects
