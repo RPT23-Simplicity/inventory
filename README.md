@@ -2,6 +2,9 @@
 
 > A service that handles and displays available colors & sizes for each item in inventory.
 
+![Alt Text](https://github-gifs.s3-us-west-1.amazonaws.com/Actual.gif)
+
+
 ## Related Projects
 
   - https://github.com/RPT23-Simplicity/reviews
