@@ -1,6 +1,6 @@
 # Inventory Service
 
-> A service that handles and displays available colors & sizes for each item in inventory.
+> A service that handles and displays available sizes for each item in inventory.
 
 Simplicity implementation
 ![image](https://github-gifs.s3-us-west-1.amazonaws.com/FEC+(1).gif)
