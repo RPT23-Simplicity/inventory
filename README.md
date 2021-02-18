@@ -3,10 +3,10 @@
 > A service that handles and displays available sizes for each item in inventory.
 
 Simplicity implementation
-![image](https://github-gifs.s3-us-west-1.amazonaws.com/FEC+(1).gif)
+![image](https://github-gifs.s3-us-west-1.amazonaws.com/ezgif-5-11fa1cdfb447.gif)
 
-Actual 
-![image](https://github-gifs.s3-us-west-1.amazonaws.com/actual+(1).gif) 
+Actual implementation
+![image](https://github-gifs.s3-us-west-1.amazonaws.com/ezgif-5-c41cac6afb74.gif) 
 
 
 ## Related Projects
