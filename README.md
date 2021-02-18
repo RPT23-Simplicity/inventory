@@ -6,7 +6,7 @@ Simplicity implementation
 ![image](https://github-gifs.s3-us-west-1.amazonaws.com/FEC+(1).gif)
 
 Actual 
-![image](https://github-gifs.s3-us-west-1.amazonaws.com/Actual.gif) 
+![image](https://github-gifs.s3-us-west-1.amazonaws.com/actual+(1).gif) 
 
 
 ## Related Projects
